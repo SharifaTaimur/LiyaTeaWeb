@@ -1,0 +1,39 @@
+﻿<section id="contactUs" style="margin-top:60px">
+    <div class="container text-center">
+        <div class="col-md-12 contact_content">
+            <div class="textContainer">
+                <h2>Contact</h2>
+                <br />
+                <p class="text-center"> If you have questions about your order or our products and services, please submit the form below and a member of our staff will reply as soon as possible.</p>
+                <br />
+                <div class="text-left">
+                    @using (Html.BeginForm("Index", "Contact"))
+                    {
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            <span class="pull-right alert-error validationForname-contact-1"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                            <span class="pull-right alert-error validationForemail-contact-1"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                            <span class="pull-right alert-error validationFormessage-contact-1"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LcqsGoUAAAAADwasiDTdnW76UinQE61RonOXbq1"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="sendContact">SEND</button>
+                        <div class="ajax-message col-md-12 no-gap fontColorGreenAndLarge">
+
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

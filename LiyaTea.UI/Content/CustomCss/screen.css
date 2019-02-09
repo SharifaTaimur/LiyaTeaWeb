@@ -1,0 +1,331 @@
+﻿
+
+@media only screen (min-width : 992px) and (max-width : 1200px) {
+    #top-menu {
+        width: 102% !important;
+        left: 0 !important;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #home h1 {
+        margin-top: 300px;
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .nav {
+        text-align: center;
+        width: 102% !important;
+        left: 0 !important;
+    }
+
+    .home_content div {
+        padding-top: 300px !important;
+    }
+
+    #benefits .tea_leaves {
+        display: none !important;
+    }
+
+    #testimonials {
+        padding: 200px 0;
+    }
+
+    #quality img {
+        display: none;
+    }
+
+    .quality_content {
+        float: none;
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+
+    #store h2 {
+        margin-top: 150px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    body {
+        text-align: center;
+    }
+
+    #home {
+        /*height: 60%;*/
+    }
+
+    .home_content div {
+        padding-top: 80px !important;
+    }
+
+    #history {
+        background-size: auto 1600px !important;
+        padding-top: 0px;
+    }
+
+    .history_content > div {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    #aboutUs {
+        background-size: 1600px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .aboutUs_content > div {
+        padding-top: 20px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #sustainability {
+        background-size: 1800px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .sustainability_content > div {
+        padding-top: 10px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #contactUs {
+        background-size: 1800px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .contact_content > div {
+        padding-top: 70px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #home h1 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    #production h2 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #history h2 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #production img {
+        float: none;
+        margin-top: 120px;
+    }
+
+    #history img {
+        float: none;
+        margin-top: 120px;
+    }
+
+    .p_content {
+        margin-left: 0;
+    }
+
+    #cta {
+        margin-top: 90px;
+    }
+
+    .cta_content {
+        padding: 120px 0;
+    }
+
+    #benefits {
+        padding: 90px 0;
+    }
+
+    #testimonials {
+        padding: 150px 0;
+    }
+
+    .quality_content {
+        margin-left: 0;
+        margin-top: 90px;
+    }
+
+    #store h2 {
+        margin-top: 90px;
+    }
+
+    #store h3 {
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    #store button {
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    #store .store_wrap {
+        padding-bottom: 90px;
+    }
+
+    #contact .column {
+        margin-top: 90px;
+        /*display: inline-block;*/
+        /*margin-right: 30px;*/
+    }
+
+    #contact .social_links a {
+        text-align: center;
+        display: inline-block;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #home {
+        /*height: 60%;*/
+    }
+
+    .home_content div {
+        padding-top: 80px !important;
+    }
+
+    #history {
+        background-size: auto 1600px !important;
+        padding-top: 0px;
+    }
+
+    .history_content > div {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    #aboutUs {
+        background-size: 1600px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .aboutUs_content > div {
+        padding-top: 20px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #sustainability {
+        background-size: 1800px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .sustainability_content > div {
+        padding-top: 10px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #contactUs {
+        background-size: 1800px 1200px !important;
+        padding-top: 0px;
+    }
+
+    .contact_content > div {
+        padding-top: 70px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #home h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .benefit p {
+        padding: 0 80px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .navbar-default,
+    .scrolled.navbar {
+        opacity: 1;
+    }
+
+    #toggleButton:hover,
+    #toggleButton:focus {
+        background-color: transparent;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-default .navbar-nav > li > a,
+    .scrolled.navbar .navbar-nav > li > a {
+        padding: 15px 0;
+    }
+
+    #home h1 {
+        font-size: 45px;
+        line-height: 65px;
+        margin-top: 200px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #production h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #history h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #production img {
+        margin-top: 90px;
+    }
+
+    #history img {
+        margin-top: 90px;
+    }
+
+    .cta_content {
+        padding: 100px 0;
+    }
+
+    #benefits h2 {
+        margin-top: 0;
+    }
+
+    .benefit p {
+        padding: 0;
+    }
+
+    #testimonials {
+        padding: 60px 0;
+    }
+
+    .owl-testimonials .item {
+        margin-left: 0 !important;
+    }
+
+        .owl-testimonials .item h4 {
+            font-size: 18px;
+            line-height: 40px;
+        }
+
+    #quality h2 {
+        margin-bottom: 40px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
