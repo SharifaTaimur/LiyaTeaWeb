@@ -9,11 +9,11 @@ using LiyaTea.UI.Controllers;
 
 namespace LiyaTea.UI.Tests.Controllers
 {
-    [TestClass]
+   /* [TestClass]
     public class HomeControllerTest
     {
         [TestMethod]
-        public void Index()
+       public void Index()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -50,5 +50,5 @@ namespace LiyaTea.UI.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
-    }
+    }*/
 }
