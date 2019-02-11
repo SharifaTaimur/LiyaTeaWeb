@@ -39,9 +39,9 @@ namespace LiyaTea.UI.Controllers
                 var x = await SendEmail(name, email, messages);
                 if (x == "sent")
                     ModelState.AddModelError("Success", "Message sent successfully. We will get back to you shortly!");
-                return View("_contact");
+                return View("Index");
             }
-            return View("_contact");
+            return View("Index");
         }
 
         public ViewResult Contact()
